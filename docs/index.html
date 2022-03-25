@@ -5,13 +5,87 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pirate Cove</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="article.html">Article</a>
+            <a class="nav-link" href="photos.html">Photos</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
 
-  <!-- Closing scripts here -->
+  <div class="container pb-3">
+    <div id="header" class="p-5">
+      <h1 class="display-3 pt-5">
+        Ship's Log
+      </h1>
+      <p class="lead pb-4">
+        A diary by Capt. Yucheng 'Curly' Zhanglitty
+      </p>
+    </div>
+  </div>
+
+  <div class="container header">
+    <h1>
+      Thar be monsters in the sea
+    </h1>
+  </div>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/kraken01.jpg" class="card-img-top" alt="Image of Nautilus">
+          <div class="card-body">
+            <h5 class="card-title">Nautilus</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt aliquam nobis dignissimos praesentium. Praesentium, animi? Officiis ea modi, tempore vel nostrum esse enim, nisi earum, corrupti rerum est omnis!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/kraken02.jpg" class="card-img-top" alt="Image of Leviathan">
+          <div class="card-body">
+            <h5 class="card-title">Leviathan</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia perferendis praesentium tempora! Facere distinctio sapiente fugiat deserunt omnis dolor esse neque adipisci, laboriosam itaque temporibus vitae eaque sint ad vel?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/kraken03.jpg" class="card-img-top" alt="Image of Colosus">
+          <div class="card-body">
+            <h5 class="card-title">Colosus</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consectetur quae, ad modi, itaque soluta ipsam totam maxime possimus tempora dignissimos molestiae, cum eveniet unde quas sunt eos. Sunt, earum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="footer p-2">
+        <p>
+          Site by Yucheng Zhang
+        </p>
+    </footer>
+  </div>
+
   <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>

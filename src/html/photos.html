@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>Bootstrap 5 Layout</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pirate Cove</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="article.html">Article</a>
+            <a class="nav-link active" aria-current="page" href="photos.html">Photos</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container pb-3">
+    <div id="header" class="p-5">
+      <h1 class="display-3 pt-5">
+        Ship's Log
+      </h1>
+      <p class="lead pb-4">
+        A diary by Capt. Yucheng 'Curly' Zhanglitty
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 mb-4">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/kraken01.jpg" class="d-block w-100" alt="Slideshow image of Kraken #1, Nautilus">
+              <p>Nautilus has been lurking the depths of the Black Sea for centuries. It is rumored to be over 900 years old.</p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/kraken02.jpg" class="d-block w-100" alt="Slideshow image of Kraken #2, Leviathan">
+              <p>Leviathan is the largest documented Kraken. Though we've never seen it fully emerged from the water, we estimate it to be over 200 metres long.</p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/kraken03.jpg" class="d-block w-100" alt="Slideshow image of Kraken #3, Colosus">
+              <p>Colosus is known for its bright red coloration. Survivors of ships attacked by this Kraken say its piercing blue eyes are the first thing you see glowing in the murky water.</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="footer p-2">
+        <p>
+          Site by Yucheng Zhang
+        </p>
+    </footer>
+  </div>
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

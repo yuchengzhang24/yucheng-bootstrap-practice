@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>Bootstrap 5 Layout</title>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pirate Cove</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="article.html">Article</a>
+            <a class="nav-link" href="photos.html">Photos</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container pb-3">
+    <div id="header" class="p-5">
+      <h1 class="display-3 pt-5">
+        Ship's Log
+      </h1>
+      <p class="lead pb-4">
+        A diary by Capt. Yucheng 'Curly' Zhanglitty
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <img src="img/pirate.jpg" alt="Pirate" class="img-fluid">
+        <p><span class="byline">
+          By Capt. Zhang</span>
+          <br><span class="source"> Sea Breeze Tribune</span>
+        </p>
+      </div>
+      <div class="col-md-6 col-lg-8">
+        <h2>
+          It was a dark and stormy night
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, vero inventore expedita ex ad officiis assumenda porro cumque accusantium quasi eos aliquam suscipit adipisci, recusandae beatae maiores facere placeat veniam!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sequi accusantium porro minus doloribus perferendis repellendus modi esse repudiandae, commodi officiis, molestias cupiditate recusandae error sit quas facere amet eligendi.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempore aliquam quas officia tenetur deserunt nihil quasi et ullam blanditiis aliquid, culpa ducimus, delectus numquam assumenda! Sequi id perspiciatis maxime!
+        </p>
+        <div class="accordion pb-4" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Captain's Log - March 25, 1675, 2:00AM - 32°55′S 151°45′E
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>The fateful night we encountered the Nautilus.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquid adipisci quia, pariatur maxime quo cum facere et aspernatur incidunt quod molestiae officiis, unde velit harum, distinctio officia quaerat exercitationem.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Captain's Log - April 24, 1676, 7:00PM - 60°10′N 24°56′E
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>The night we found the Leviathan: A night we almost met our fate.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nesciunt minima error dolore aliquam corporis, ab molestiae facere. Delectus quae, officia eligendi similique ipsam adipisci! Quae accusantium dolorem illum maiores.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Captain's Log - December 16th, 1678, 4:00AM - 39°15′N 9°03′E
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Our first Colosus sighting - something straight out of a nightmare.</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsam eos vitae officiis? Consequatur ipsa dolores ad, iure a cumque illum distinctio quis amet corporis repellendus voluptatibus vitae, harum nisi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <footer class="footer p-2">
+        <p>
+          Site by Yucheng Zhang
+        </p>
+    </footer>
+  </div>
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
